@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form using html css and js</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="./img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odit!
+            Unde temporibus sint labore possimus culpa, fuga accusamus quis
+            numquam!
+          </p>
+          <div class="info">
+            <!-- address -->
+            <div class="informatiom">
+              <img src="./img/location.png" class="icon" alt="" />
+              <p>298 Bac tu liem Ha noi</p>
+            </div>
+            <!-- email -->
+            <div class="informatiom">
+              <img src="./img/email.png" class="icon" alt="" />
+              <p>quocvietha08@gmail.com</p>
+            </div>
+            <!-- phone number -->
+            <div class="informatiom">
+              <img src="./img/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+          <!-- social media -->
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icon">
+              <!-- facebook -->
+              <a href="#">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+              <!-- twitter -->
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <!-- instagram -->
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <!-- youtube -->
+              <a href="#">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact Form  -->
+        <div class="contact-form">
+          <div class="circle one"></div>
+          <div class="circle two"></div>
+          <!-- form input -->
+          <form action="index.html">
+            <!-- input section  -->
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name=" name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <!-- email section  -->
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <!-- phone section  -->
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <!-- text areaa -->
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <!-- button section  -->
+            <input type="submit" value="Send" class="btn" />
+          </form>
+          <!-- end of contact form -->
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
